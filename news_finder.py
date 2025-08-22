@@ -4,11 +4,10 @@ import nltk
 from nltk.corpus import wordnet
 from deep_translator import GoogleTranslator
 
-# Assicurati di avere i dati di WordNet
 nltk.download('wordnet')
 nltk.download('omw-1.4')
 
-# Lista di feed RSS mondiali (50+ feed)
+# Lista di feed RSS
 feeds = [
     "https://feeds.bbci.co.uk/news/rss.xml",
     "http://rss.cnn.com/rss/edition.rss",
