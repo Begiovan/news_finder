@@ -16,7 +16,7 @@ How to install and run the code:
 
 1. Scarica il codice
 ```bash
-  https://github.com/Begiovan/news_finder.git
+  git clone https://github.com/Begiovan/news_finder.git
   cd news_finder
 ```
 
