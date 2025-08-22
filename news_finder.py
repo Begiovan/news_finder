@@ -58,10 +58,10 @@ for lang in languages:
 english_synonyms = []
 for word in translations.get("en", "").split():
     english_synonyms += get_synonyms(word)
-english_synonyms = list(set(english_synonyms))  # deduplica
+english_synonyms = list(set(english_synonyms))
 
 # Lista finale di keyword
-keywords_translated_summary = [keyword]  # per summary tradotto
+keywords_translated_summary = [keyword]
 keywords_original_text = list(translations.values()) + english_synonyms
 keywords_original_text = [kw.lower() for kw in keywords_original_text]
 
